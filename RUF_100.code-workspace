@@ -1,0 +1,35 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "stdint.h": "c",
+            "gd32f30x.h": "c",
+            "string": "c",
+            "vector": "c",
+            "xstring": "c",
+            "xutility": "c",
+            "menu.h": "c",
+            "bsp_st7789_driver.h": "c",
+            "string.h": "c",
+            "stdarg.h": "c",
+            "elog.h": "c",
+            "emit.h": "c",
+            "main.h": "c",
+            "data.h": "c",
+            "gpio.h": "c",
+            "limits": "c",
+            "memory": "c",
+            "bit": "c",
+            "compare": "c",
+            "cstddef": "c",
+            "type_traits": "c",
+            "task_manager.h": "c",
+            "os_support.h": "c"
+        }
+    },
+    "extensions": {}
+}

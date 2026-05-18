@@ -1,0 +1,4 @@
+--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\Lib\CMSIS -I .\Lib\CMSIS\GD\GD32F30x\Include -I .\Lib\CMSIS\GD\GD32F30x\Source\ARM -I .\Lib\GD32F30x_standard_peripheral\Include -I .\Core -I .\Code -I .\Task\inc -I .\Middlerwares\FreeRTOS -I .\Middlerwares\FreeRTOS\inc -I .\Middlerwares\FreeRTOS\port\RVDS\ARM_CM4F -I .\Middlerwares\SEGGER_RTT -I .\Middlerwares\EasyLogger\inc -I .\BSP\ST7789 -I .\BSP -I .\Middlerwares\LVGL\lvgl -I .\Middlerwares\LVGL\lvgl\src -I .\Middlerwares\LVGL\lvgl\examples\porting -I .\Middlerwares\LVGL\lvgl\demos\widgets -I .\Middlerwares\LVGL -I .\BSP\KEY\inc -I .\App\Inc
+-I"D:\Keil MDK v5.40\armpack\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include"
+-D__UVISION_VERSION="540" -DGD32F30X_XD -DUSE -DSTDPERIPH -DDRIVER -DGD32F30X -DHD
+-o .\objects\heap_4.o --omf_browse .\objects\heap_4.crf --depend .\objects\heap_4.d "Middlerwares\FreeRTOS\port\MemMang\heap_4.c"

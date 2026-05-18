@@ -1,0 +1,9 @@
+.\objects\lv_port_disp_template.o: Middlerwares\LVGL\lvgl\examples\porting\lv_port_disp_template.c
+.\objects\lv_port_disp_template.o: Middlerwares\LVGL\lvgl\examples\porting\lv_port_disp_template.h
+.\objects\lv_port_disp_template.o: D:\Keil5_MDK\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\lv_port_disp_template.o: .\BSP\ST7789\bsp_st7789_driver.h
+.\objects\lv_port_disp_template.o: D:\Keil5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lv_port_disp_template.o: .\BSP\ST7789\fonts.h
+.\objects\lv_port_disp_template.o: .\BSP\ST7789\bsp_st7789_link.h
+.\objects\lv_port_disp_template.o: .\Core\main.h
+.\objects\lv_port_disp_template.o: .\Lib\CMSIS\GD\GD32F30x\Include\gd32f30x.h
