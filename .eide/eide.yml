@@ -109,10 +109,10 @@ virtualFolder:
         - name: Easylogger
           files:
             - path: Middlerwares/EasyLogger/port/elog_port.c
-            - path: Middlerwares/EasyLogger/src/elog.c
             - path: Middlerwares/EasyLogger/src/elog_async.c
             - path: Middlerwares/EasyLogger/src/elog_buf.c
             - path: Middlerwares/EasyLogger/src/elog_utils.c
+            - path: Middlerwares/EasyLogger/src/elog.c
           folders: []
         - name: Menus
           files:
@@ -711,15 +711,15 @@ targets:
             optimize-for-time: true
             warnings: all-warnings
           global:
+            big-endian: true
             output-debug-info: disable
-            use-microLIB: true
           linker:
             $outputTaskExcludes:
               - .bin
             output-format: elf
             ro-base: "0x08000000"
             rw-base: "0x20000000"
-        scatterFilePath: C:\Users\11369\Desktop\gd32_p\code\RUF_100\sct_files\RUF_100.sct
+        scatterFilePath: D:\desk\ruf-q-master\ruf-q-master\sct_files\RUF_100.sct
         storageLayout:
           RAM:
             - id: 1
